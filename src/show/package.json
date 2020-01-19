@@ -1,0 +1,12 @@
+{
+  "name": "@followwinter/react-dl-show",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "index.js",
+  "scripts": {
+    "build": "rollup -c ../../rollup.config.js"
+  },
+  "dependencies": {
+
+  }
+}
