@@ -1,0 +1,14 @@
+{
+  "name": "@followwinter/react-dl-switch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "index.js",
+  "scripts": {
+    "build": "rollup -c ../../rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
