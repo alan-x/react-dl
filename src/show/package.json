@@ -1,6 +1,6 @@
 {
   "name": "@followwinter/react-dl-show",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/index.js",
   "module": "index.js",
   "scripts": {
