@@ -12,7 +12,7 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public  -o docs",
+    "build-storybook": "build-storybook -s public -o docs",
     "build": "lerna run build",
     "publish": "lerna publish"
   },
