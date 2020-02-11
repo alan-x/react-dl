@@ -1,12 +1,7 @@
 import React from "react";
-import Show from "./index";
+import Show from "../index";
 
-export default {
-    title: "Show",
-    component: Show,
-};
-
-class ShowExample extends React.Component {
+export class ShowExample extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -37,5 +32,3 @@ class ShowExample extends React.Component {
         </div>;
     }
 }
-
-export const ShowToggle = () => (<ShowExample/>)
