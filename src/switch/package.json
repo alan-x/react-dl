@@ -9,5 +9,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "62f7ab39030d9eb7f8ee0dd58c7dac7b64a9abd0",
+  "dependencies": {
+    "react": "^16.12.0"
+  }
 }

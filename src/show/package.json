@@ -6,5 +6,5 @@
   "scripts": {
     "build": "rollup -c ../../rollup.config.js"
   },
-  "gitHead": "817e52a019b3b9241f557292a22cb5f11d6a649b"
+  "gitHead": "62f7ab39030d9eb7f8ee0dd58c7dac7b64a9abd0"
 }
