@@ -1,6 +1,6 @@
 {
   "name": "@followwinter/react-dl-switch",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "",
   "main": "lib/index.js",
   "module": "index.js",
@@ -9,6 +9,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {}
+  "license": "ISC"
 }
