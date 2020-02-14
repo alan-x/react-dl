@@ -10,6 +10,10 @@ react-dl
 - 🎉 Show：显示一个组件
 - 🚧 Switch/Case：根据条件显示一个组件
 
+### TODO 列表
+- 🚧 优化文档
+- 🚧 优化组件和示例
+
 ### 使用前
 ```jsx harmony
 render(){
@@ -39,15 +43,18 @@ render(){
 
 ### 使用后
 ```jsx harmony
+
+isShow = (show) => ({children}) => <Show test={show} > {children} </Show>
+
 render(){
-    const InEdit = ({children})=><Show test={isEdit}>{children}</Show>
-    const InDetail = ({children})=><Show test={!isEdit}>{children}</Show>
+    const InEdit = isShow(isEdit)
+    const InDetail = isShow(!isEdit)
     
-    const HasWrite = ({children})=><Show test={hasWrite}>{children}</Show>
-    const NotHasWrite= ({children})=><Show test={!hasWrite}>{children}</Show>
+    const HasWrite = isShow(hasWrite)
+    const NotHasWrite= isShow(!hasWrite)
     
-    const Online= ({children})=><Show test={online}>{children}</Show>
-    const Offline= ({children})=><Show test={!online}>{children}</Show>
+    const Online= isShow(online)
+    const Offline= isShow(!online)
     
     return (
         <div>
