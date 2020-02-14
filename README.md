@@ -2,6 +2,10 @@ react-dl
 ---
 > 声明式 react 组件，消除 jsx 中的三目运算符和逻辑守卫！！灵感来自 angular 和 vue 的指令。
 
+### 在线例子🌰🌰🌰🌰🌰🌰🌰🌰
+
+[https://followwinter.github.io/react-dl](https://followwinter.github.io/react-dl)
+
 ### 特性
 - 🎉 解决在 jsx 中编写三目运算符导致的层层逻辑嵌套，让逻辑归逻辑，布局归布局
 - 🎉 解决封装泄漏，提高项目可维护性
@@ -13,6 +17,12 @@ react-dl
 ### TODO 列表
 - 🚧 优化文档
 - 🚧 优化组件和示例
+
+### 安装指令
+```shell
+$ npm install --save @followwinter/react-dl-show
+$ npm install --save @followwinter/react-dl-switch
+```
 
 ### 使用前
 ```jsx harmony
